@@ -1,33 +1,44 @@
-# google-maps-scraper
+Sure, here's an enhanced version of your README file:
 
+---
 
+# Google Maps Scraper
 
+This tool is designed to scrape specific data from Google Maps search results in Italy based on provided locations in a JSON file. It extracts various details such as the business name, address, website, phone number, rating, and banner.
 
-Note: you must have a stable internet connection.
+## Prerequisites
 
-Install dependencies
-type yarn install on terminal and press Enter
+- Node.js installed on your machine.
+- Stable internet connection.
+- Yarn package manager (recommended) or npm.
 
+## Installation
 
+1. Clone this repository to your local machine.
+2. Navigate to the project directory in your terminal.
+3. Run `yarn install` to install dependencies.
 
-Run the program
-type node scraper.js or yarn start and press Enter 
+## Usage
 
-Feed the search string
-Enter any Plural noun to search (it must be plural otherwise the results will differ).
+1. Run the program by typing `node scraper.js` or `yarn start` in your terminal.
+2. Enter any plural noun as the search query when prompted. Make sure it's plural to get accurate results.
+3. The program will search for data specifically in the provided locations in Italy (defined in the JSON file).
+4. If the search result contains the specific information (banner, rating, name, address, website, phone), it will be scraped and written to a JSON file.
 
-This program searchs data  sepcificly from italy (in the provided locations in json file).
-Searchs the specific data, sometimes other things can be appeared but will not be scrapped.
-This program scrapes the specific data from each specific search result.
-Data items included: 
-Banner, 
-rating,
-name,
-address,
-website,
-phone.
+## Notes
 
+- Ensure you have a stable internet connection during the scraping process.
+- The program is tailored to search for data in Italy. Results may vary for other locations.
+- Only the specific data items mentioned above will be scraped. Other information may appear in the search results but will not be captured.
 
-If the search result contains the specific information it will be scraped and will be written to the json file.
+## Contributing
 
+Contributions are welcome! If you have any ideas for improvements or find any issues, please feel free to open an issue or submit a pull request.
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+Feel free to adjust any details or add more sections if needed!
